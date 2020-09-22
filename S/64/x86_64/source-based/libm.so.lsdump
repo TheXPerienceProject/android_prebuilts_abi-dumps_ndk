@@ -332,7 +332,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA5_d",
    "size" : 40,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j1.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
   {
    "alignment" : 4,
@@ -4740,7 +4740,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIPf",
    "size" : 8,
-   "source_file" : "/external/arm-optimized-routines/math/sincosf.c"
+   "source_file" : "/bionic/libc/include/math.h"
   },
   {
    "alignment" : 8,
@@ -4949,7 +4949,7 @@
    "referenced_type" : "_ZTIA5_d",
    "self_type" : "_ZTIA5_Kd",
    "size" : 40,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j1.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
   {
    "alignment" : 4,
@@ -5165,7 +5165,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_cexp.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_exp.c"
   },
   {
    "alignment" : 8,
@@ -5743,27 +5743,6 @@
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
-   "alignment" : 16,
-   "fields" :
-   [
-    {
-     "field_name" : "hi",
-     "referenced_type" : "_ZTIg"
-    },
-    {
-     "field_name" : "lo",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIg"
-    }
-   ],
-   "linker_set_key" : "_ZTI2dd",
-   "name" : "dd",
-   "referenced_type" : "_ZTI2dd",
-   "self_type" : "_ZTI2dd",
-   "size" : 32,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_fmal.c"
-  },
-  {
    "alignment" : 8,
    "fields" :
    [
@@ -5779,10 +5758,31 @@
    ],
    "linker_set_key" : "_ZTI2dd",
    "name" : "dd",
-   "referenced_type" : "_ZTI2dd#ODR:out/soong/.intermediates/bionic/libm/libm/android_x86_64_static/obj/bionic/libm/upstream-freebsd/lib/msun/src/s_fma.sdump",
-   "self_type" : "_ZTI2dd#ODR:out/soong/.intermediates/bionic/libm/libm/android_x86_64_static/obj/bionic/libm/upstream-freebsd/lib/msun/src/s_fma.sdump",
+   "referenced_type" : "_ZTI2dd",
+   "self_type" : "_ZTI2dd",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_fma.c"
+  },
+  {
+   "alignment" : 16,
+   "fields" :
+   [
+    {
+     "field_name" : "hi",
+     "referenced_type" : "_ZTIg"
+    },
+    {
+     "field_name" : "lo",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIg"
+    }
+   ],
+   "linker_set_key" : "_ZTI2dd",
+   "name" : "dd",
+   "referenced_type" : "_ZTI2dd#ODR:out/soong/.intermediates/bionic/libm/libm/android_x86_64_static/obj/bionic/libm/upstream-freebsd/lib/msun/src/s_fmal.sdump",
+   "self_type" : "_ZTI2dd#ODR:out/soong/.intermediates/bionic/libm/libm/android_x86_64_static/obj/bionic/libm/upstream-freebsd/lib/msun/src/s_fmal.sdump",
+   "size" : 32,
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_fmal.c"
   },
   {
    "alignment" : 16,

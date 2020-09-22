@@ -152,7 +152,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA2_d",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmod.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 4,
@@ -242,7 +242,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA5_d",
    "size" : 40,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
   {
    "alignment" : 4,
@@ -278,7 +278,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA6_d",
    "size" : 48,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_tanf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
   {
    "alignment" : 4,
@@ -4242,7 +4242,7 @@
    "referenced_type" : "_ZTIA2_f",
    "self_type" : "_ZTIA2_Kf",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_remquof.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmodf.c"
   },
   {
    "alignment" : 4,
@@ -4302,7 +4302,7 @@
    "referenced_type" : "_ZTIA6_d",
    "self_type" : "_ZTIA6_Kd",
    "size" : 48,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_tanf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
   {
    "alignment" : 4,
@@ -4470,7 +4470,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_cexp.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_exp.c"
   },
   {
    "alignment" : 2,
@@ -4502,7 +4502,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIVKf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_erff.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/catrig.c"
   },
   {
    "alignment" : 4,
@@ -4512,7 +4512,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIVf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_atan2f.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_acosf.c"
   }
  ],
  "record_types" :

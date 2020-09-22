@@ -152,7 +152,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA2_d",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_remquo.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 4,
@@ -170,7 +170,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIA2_f",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_remquof.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 4,
@@ -251,7 +251,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIA5_f",
    "size" : 20,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atanf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
   {
    "alignment" : 4,
@@ -4134,7 +4134,7 @@
    "referenced_type" : "_ZTIe",
    "self_type" : "_ZTIPe",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "/bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.h"
   },
   {
    "alignment" : 4,
@@ -4282,7 +4282,7 @@
    "referenced_type" : "_ZTIA5_f",
    "self_type" : "_ZTIA5_Kf",
    "size" : 20,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atanf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
   {
    "alignment" : 4,
@@ -4470,7 +4470,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_cbrtf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_exp.c"
   },
   {
    "alignment" : 2,
@@ -4512,7 +4512,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIVf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_log1pf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_acosf.c"
   }
  ],
  "record_types" :

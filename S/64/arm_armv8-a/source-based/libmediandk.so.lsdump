@@ -10137,42 +10137,6 @@
    "underlying_type" : "_ZTIj"
   },
   {
-   "access" : "protected",
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 1,
-     "name" : "android::Surface::DEFAULT_FORMAT"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android7Surface15$DEFAULT_FORMATE",
-   "name" : "android::Surface::(anonymous enum at frameworks/native/libs/gui/include/gui/Surface.h:337:5)",
-   "referenced_type" : "_ZTIN7android7Surface15$DEFAULT_FORMATE",
-   "self_type" : "_ZTIN7android7Surface15$DEFAULT_FORMATE",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/gui/include/gui/Surface.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "access" : "protected",
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 64,
-     "name" : "android::Surface::NUM_BUFFER_SLOTS"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android7Surface17$NUM_BUFFER_SLOTSE",
-   "name" : "android::Surface::(anonymous enum at frameworks/native/libs/gui/include/gui/Surface.h:336:5)",
-   "referenced_type" : "_ZTIN7android7Surface17$NUM_BUFFER_SLOTSE",
-   "self_type" : "_ZTIN7android7Surface17$NUM_BUFFER_SLOTSE",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/gui/include/gui/Surface.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
    "alignment" : 4,
    "enum_fields" :
    [

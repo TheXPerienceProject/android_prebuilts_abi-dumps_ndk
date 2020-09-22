@@ -2675,33 +2675,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "name" : "int (*)(ANativeWindow *, int (*)(ANativeWindow *, ANativeWindowBuffer *, int), void *, ANativeWindowBuffer *, int)",
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "self_type" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "name" : "int (*)(ANativeWindow *, int (*)(ANativeWindow *, ANativeWindowBuffer **, int *), void *, ANativeWindowBuffer **, int *)",
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "self_type" : "_ZTIPFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiP13ANativeWindowPFiS0_iSt9__va_listEPviS1_E",
-   "name" : "int (*)(ANativeWindow *, int (*)(ANativeWindow *, int, std::__va_list), void *, int, std::__va_list)",
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_iSt9__va_listEPviS1_E",
-   "self_type" : "_ZTIPFiP13ANativeWindowPFiS0_iSt9__va_listEPviS1_E",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferE",
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer **)",
    "referenced_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferE",

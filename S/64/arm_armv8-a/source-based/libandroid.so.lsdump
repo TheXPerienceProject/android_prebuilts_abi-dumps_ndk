@@ -78,15 +78,6 @@
    "size" : 1
   },
   {
-   "alignment" : 1,
-   "is_integral" : true,
-   "linker_set_key" : "_ZTIc",
-   "name" : "char",
-   "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIc",
-   "size" : 1
-  },
-  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIf",
    "name" : "float",
@@ -2039,52 +2030,58 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP13ANativeWindow"
+     "enum_field_value" : 0,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_15"
     },
     {
-     "referenced_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferiE"
+     "enum_field_value" : 0,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_16"
     },
     {
-     "referenced_type" : "_ZTIPv"
+     "enum_field_value" : 0,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_17"
     },
     {
-     "referenced_type" : "_ZTIP19ANativeWindowBuffer"
+     "enum_field_value" : 0,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_18"
     },
     {
-     "referenced_type" : "_ZTIi"
+     "enum_field_value" : 0,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_19"
     }
    ],
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
+   "linker_set_key" : "_ZTI26AHardwareBuffer_UsageFlags",
+   "name" : "AHardwareBuffer_UsageFlags",
+   "referenced_type" : "_ZTI26AHardwareBuffer_UsageFlags",
+   "self_type" : "_ZTI26AHardwareBuffer_UsageFlags",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h",
+   "underlying_type" : "_ZTIy"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "name" : "int (ANativeWindow *, int (*)(ANativeWindow *, ANativeWindowBuffer **, int *), void *, ANativeWindowBuffer **, int *)",
-   "parameters" :
+   "enum_fields" :
    [
     {
-     "referenced_type" : "_ZTIP13ANativeWindow"
+     "enum_field_value" : 1,
+     "name" : "WINDOW_FORMAT_RGBA_8888"
     },
     {
-     "referenced_type" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferPiE"
+     "enum_field_value" : 2,
+     "name" : "WINDOW_FORMAT_RGBX_8888"
     },
     {
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "referenced_type" : "_ZTIPP19ANativeWindowBuffer"
-    },
-    {
-     "referenced_type" : "_ZTIPi"
+     "enum_field_value" : 4,
+     "name" : "WINDOW_FORMAT_RGB_565"
     }
    ],
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
+   "linker_set_key" : "_ZTI26ANativeWindow_LegacyFormat",
+   "name" : "ANativeWindow_LegacyFormat",
+   "referenced_type" : "_ZTI26ANativeWindow_LegacyFormat",
+   "self_type" : "_ZTI26ANativeWindow_LegacyFormat",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h",
+   "underlying_type" : "_ZTIj"
   },
   {
    "alignment" : 4,
@@ -2093,16 +2090,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP13ANativeWindow"
+     "enum_field_value" : 0,
+     "name" : "NATIVE_WINDOW_SET_USAGE"
     },
     {
      "referenced_type" : "_ZTIPFiP13ANativeWindowiSt9__va_listE"
     },
     {
-     "referenced_type" : "_ZTIPv"
+     "enum_field_value" : 2,
+     "name" : "NATIVE_WINDOW_DISCONNECT"
     },
     {
-     "referenced_type" : "_ZTIi"
+     "enum_field_value" : 3,
+     "name" : "NATIVE_WINDOW_SET_CROP"
     },
     {
      "referenced_type" : "_ZTISt9__va_list"
@@ -2684,33 +2684,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "name" : "int (*)(ANativeWindow *, int (*)(ANativeWindow *, ANativeWindowBuffer *, int), void *, ANativeWindowBuffer *, int)",
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "self_type" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "name" : "int (*)(ANativeWindow *, int (*)(ANativeWindow *, ANativeWindowBuffer **, int *), void *, ANativeWindowBuffer **, int *)",
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "self_type" : "_ZTIPFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiP13ANativeWindowPFiS0_iPcEPviS1_E",
-   "name" : "int (*)(ANativeWindow *, int (*)(ANativeWindow *, int, char *), void *, int, char *)",
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_iPcEPviS1_E",
-   "self_type" : "_ZTIPFiP13ANativeWindowPFiS0_iPcEPviS1_E",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferE",
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer **)",
    "referenced_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferE",
@@ -2879,15 +2852,6 @@
    "self_type" : "_ZTIPPv",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPc",
-   "name" : "char *",
-   "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIPc",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
   },
   {
    "alignment" : 4,
