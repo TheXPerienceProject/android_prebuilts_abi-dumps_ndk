@@ -5796,7 +5796,7 @@
    "referenced_type" : "_ZTI25android_color_mode_v1_1_t",
    "self_type" : "_ZTI25android_color_mode_v1_1_t",
    "size" : 4,
-   "source_file" : "/system/media/audio/include/system/audio-base.h",
+   "source_file" : "/system/core/libsystem/include/system/graphics-base-v1.1.h",
    "underlying_type" : "_ZTIj"
   },
   {

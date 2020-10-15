@@ -2576,15 +2576,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIP13__va_list_tag",
-   "name" : "__va_list_tag *",
-   "referenced_type" : "_ZTI13__va_list_tag",
-   "self_type" : "_ZTIP13__va_list_tag",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIP15AHardwareBuffer",
    "name" : "AHardwareBuffer *",
    "referenced_type" : "_ZTI15AHardwareBuffer",
@@ -2661,33 +2652,6 @@
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer *, int)",
    "referenced_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferiE",
    "self_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferiE",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "name" : "int (*)(ANativeWindow *, int (*)(ANativeWindow *, ANativeWindowBuffer *, int), void *, ANativeWindowBuffer *, int)",
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "self_type" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "name" : "int (*)(ANativeWindow *, int (*)(ANativeWindow *, ANativeWindowBuffer **, int *), void *, ANativeWindowBuffer **, int *)",
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "self_type" : "_ZTIPFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPFiP13ANativeWindowPFiS0_iP13__va_list_tagEPviS2_E",
-   "name" : "int (*)(ANativeWindow *, int (*)(ANativeWindow *, int, __va_list_tag *), void *, int, __va_list_tag *)",
-   "referenced_type" : "_ZTIFiP13ANativeWindowPFiS0_iP13__va_list_tagEPviS2_E",
-   "self_type" : "_ZTIPFiP13ANativeWindowPFiS0_iP13__va_list_tagEPviS2_E",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/nativewindow/include/apex/window.h"
   },
